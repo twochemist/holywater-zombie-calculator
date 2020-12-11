@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Holy Water Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+<body>
+
+
+  <div class="card">
+    <p class="symbol">Holy Water, H<sub data-tooltip="Two atoms of hydrogen.">2</sub>O</p>
+    <p><strong>H<sub data-tooltip="Two atoms of hydrogen.">2</sub>O</strong> is the chemical formula for water, ice
+      or steam which consists of <strong>two atoms of hydrogen</strong> and <strong>one atom of oxygen</strong>.</p>
+    <p>Water is a <strong>transparent</strong>, <strong>tasteless</strong>, <strong>odorless</strong>, and
+      <strong>nearly colorless</strong> chemical substance that is the main constituent of Earth's streams, lakes,
+      and oceans, and the fluids of most living organisms.</p>
+    <p>Water covers <strong>71%</strong> of the Earth's surface.<sup
+        data-tooltip="1. CIA – Churchs Intelligence Agency. Retrieved 11 December 2020.">1</sup>
+      It is perfect to kill Zombies.</p>
+  </div>
+
+
+  <div class="container">
+    <div class="py-5">
+      <h4 class="mb-4"> Order your Holy Water now, before Zombies invade the World </h4>
+
+      <div class="mb-4">
+        <label for="words"><strong>How many Zombies do you need to exterminate:</strong> </label>
+        <input type="number" class="form-control" id="words" placeholder="0" value="0" required>
+        <div class="invalid-feedback">
+          Liters
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <label for="language"> <strong>Select Type of Holy Water </strong> </label>
+        <select class="custom-select d-block w-100" id="language" required>
+          <option value="">Holy Water Type</option>
+          <option value="bp">Baptism (H2O Bp)</option>
+          <option value="ap">Apocalypse (H2O Ap)</option>
+          <option value="hy">Gospel (Go)</option>
+          <option value="hy">Indulgence (Id)</option>
+        </select>
+        <div class="invalid-feedback">
+          Aguita
+        </div>
+      </div>
+
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="sprint">
+        <label class="custom-control-label" for="sprint">Sanctified by a priest</label>
+      </div>
+      <hr class="mb-4">
+
+      <div class="my-5">
+        <!--<h3>Price: <span id="js-total">0</span>€-->
+        <h3>Price: <span id="js-total">0</span>$
+      </div>
+
+      <div class="my-5">
+        <button class="btn btn-primary">Print order</button>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="js/scripts-refactor.js"></script>
+
+
+</body>
+
+</html>

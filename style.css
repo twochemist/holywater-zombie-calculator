@@ -1,0 +1,65 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+body {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	margin: 30px 0;
+	background: #20A4F3;
+	position: relative;
+	background-image: url('https://s3.amazonaws.com/graphics-jaymie/sea-creatures.png');
+	background-size: cover;
+}
+a {
+	text-decoration: none;
+	color: grey;
+}
+p {
+    font-size: 16px;
+	color: grey;
+	line-height: 1.6em;
+}
+strong {
+	font-weight: bold;
+}
+div.info-container {
+	max-width: 350px;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 0 auto 30px auto;
+	background: rgba(255,255,255,0.9);
+}
+p.info {
+	font-size: 12px;
+}
+p.symbol {
+	margin: 0;
+	font-family: 'Abril Fatface', serif;
+	font-size: 40px;
+	color: #20A4F3;
+	text-align: center;
+}
+p.element-name {
+	display: inline;
+	margin: 0 70px;
+}
+i.fas.fa-times {
+	color: #c2d2db;
+}
+p.footnote {
+	font-size: 30px;
+}
+div.card {
+	padding: 20px;
+	background: rgba(80, 38, 38, 0.9);
+	height: 375px;
+	border-radius: 10px;
+	margin: 0 auto;
+	max-width: 350px;
+	position: relative;
+
